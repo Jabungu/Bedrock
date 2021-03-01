@@ -1,0 +1,207 @@
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https:??fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- navbar -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    {% load static %}
+<header>
+    <nav>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark"style="width:100%;">
+        
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01" >
+            <a class="navbar-brand" href="#"style="color:white">Outage</a>
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                <a class="nav-link" href="/"style="color:#b8bbbe">Home <span class="sr-only">(current)</span></a>
+                </li>           
+                <li class="nav-item">
+                <a class="nav-link" href="/poll"style="color:#b8bbbe">Poll</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/docs"style="color:#b8bbbe">Docs</a>
+                </li> 
+                <li class="nav-item">
+                <a class="nav-link" href="/about"style="color:#b8bbbe">About</a>
+                </li>
+            </ul>
+            <div class= "buttonz"style="float:right; padding:15px; 15px;">
+                <div style="display:inline-block; margin-right:1rem;"><a href="/register"><span class="glyphicon glyphicon-user"></span> Sign Up</a></div>
+                <div style="display:inline-block;"><a href="/login"><span class="glyphicon glyphicon-log-in"></span> Login</a></div>
+            </div>
+            </div>
+            </div>
+        </nav>
+    </nav>
+</header>
+<main>
+    <div class="about">
+        <div class="title">
+            <h1 >About</h1>
+        </div>
+        <div class="desc">
+            <p>The purpose of this platform is to be a resource for people in times of crisis, such as blackouts, outages, and/or cut off water supply.It is to make communication easier, data more accessible, and information regarding resources readily available. 
+            </p>
+        </div>
+    </div>
+    <div class="row"style="margin-left:2.5%;">
+        <div class="card">
+            <div class="card_img"> <i class="fas fa-rocket"></i> </div>
+            <div class="card_title">WHEN</div>
+            <div class="card_body">
+                <p>It was designed during the severe winter storm during February 2021 that left millions of Texas residents in single digit cold weather without heating, electricity, and water. The goal was to alleviate communication challenges between people in crisis seeking to understand the circumstances, their available resources, and ways to help one another. </p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card_img"> <i class="fab fa-cloudversify"></i> </div>
+            <div class="card_title">WHY</div>
+            <div class="card_body">
+                <p>During the winter storm, a few things stood out that contributed to the ideation of this platform. One, the lack of clear communication between Texas grid operators, and the consumers. The consumers were left to figure it out with each other with little to no transparency from their providers. It was inpsiring to see Texas residents rally together in support of one another during such a tough time. </p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card_img"> <i class="fas fa-user-astronaut"></i> </div>
+            <div class="card_title">Purpose</div>
+            <div class="card_body">
+                <p>Created by developer Job Oderoh, the platform exists to make crisis communication easier and more transparent, as well as make data and information on resources more acessible during a crisis. </p>
+            </div>
+        </div>
+    </div>
+</main>
+<style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: #ffffff;
+            padding: 0;
+            margin: 0
+        }
+
+        .menu {
+            width: 44px;
+            position: relative;
+            top: -10px;
+            height: 3px;
+            background: #00000054;
+            box-shadow: 0px 11px #ff00006b, 1px 22px #66b78d
+        }
+
+        nav {
+            padding: 8px;
+            height: 44px;
+            color: #909090;
+            font-weight: lighter;
+            display: flex;
+            justify-content: space-between;
+            align-items: center
+        }
+
+        h2 {
+            font-weight: lighter
+        }
+
+        header {
+            width: 100%;
+            height: auto;
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15)
+        }
+
+        .about {
+            text-align: center;
+            color: gray;
+            padding: 40px
+        }
+
+        .title {
+            font-size: 22px;
+            color: #2c2c2c
+        }
+
+        .desc {
+            color: #909090;
+            font-weight: 300;
+            font-size: 1.1em;
+            line-height: 1.45em;
+            margin-bottom: 15px;
+            margin-top: 30px;
+            width: 70%;
+            margin: 0 auto
+        }
+
+        @media (max-width: 630px) {
+            .title {
+                font-size: 18px
+            }
+        }
+
+        .row {
+            width: 95%;
+            display: flex;
+            padding: 10px;
+            justify-content: center
+        }
+
+        @media (max-width: 494px) {
+            .row {
+                flex-direction: column
+            }
+        }
+
+        .card {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            margin: 10px
+        }
+
+        .card_img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            box-shadow: 0 9px 30px -6px rgba(24, 206, 15, 0.3);
+            position: relative;
+            transition: transform .4s
+        }
+
+        .fas,
+        .fab {
+            display: inline-block;
+            position: absolute;
+            color: #63b563;
+            transform: translate(-52%, 75%);
+            font-size: 40px
+        }
+
+        .card_title {
+            font-size: 20px;
+            margin: 12px;
+            font-weight: bold;
+            color: #000000a8;
+            transition: color .2s
+        }
+
+        .card:hover .card_title {
+            color: #4bd482
+        }
+
+        .card:hover .card_img {
+            transform: translate(0px, -10px)
+        }
+
+        .card_body {
+            color: #8c9490;
+            font-size: 16px;
+            padding: 0 5px;
+            line-height: 1.5;
+            word-spacing: 4px
+        }
+</style>
