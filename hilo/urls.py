@@ -23,6 +23,6 @@ urlpatterns = [
     path('sendConnectionRequest/<int:id>', views.addConnection),
     path('likeComment/<int:id>', views.likeComment),
     path('docs', views.docs),
-    path('profile/<int:id>,' views.profile)
+    path('profile/<int:id>', views.profile)
     
 ] 
