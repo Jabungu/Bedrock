@@ -32,7 +32,6 @@ pycparser==2.20
 pycryptodome==3.9.9
 pyrsistent==0.17.3
 pytz==2020.1
-pywin32==300
 PyXB==1.2.5
 requests==2.24.0
 rlp==2.0.1
