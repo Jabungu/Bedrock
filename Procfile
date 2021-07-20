@@ -1,1 +1,1 @@
-web: uvicorn application.server.main:app --host 0.0.0.0 --portt $PORT --workers 2
+web: python manage.py runserver 0.0.0.0:5000
